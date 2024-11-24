@@ -118,4 +118,11 @@ body {
   .task-buttons .delete-btn:hover {
     color: #d32f2f;
   }
-  
+  @media(max-width: 420px) {
+    .todo-container {
+      width: 260px;
+    }
+    #taskInput {
+      width: 160px;
+    }
+  }
